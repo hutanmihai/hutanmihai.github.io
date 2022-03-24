@@ -32,7 +32,7 @@ p{letter-spacing: 0.6px;}
 
 .HowTo{display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%;}
     .HowToContainer{display: flex;width: 80%; justify-content: space-evenly; margin-top: 10vh;}
-        .ReviewTipsList{list-style-type:decimal ;}
+        .ReviewTipsList{list-style-type:decimal;}
             .ReviewTipsItem{line-height: 1.5;}
                 .ReviewTipsLink{font-size: 1.5rem; text-decoration: underline 0.5px;}
     .HowToContainer img{width: 25vw; height: auto;}  
@@ -70,6 +70,9 @@ p{letter-spacing: 0.6px;}
         .LatestReleaseTable tr td form div{display: flex;flex-direction: column-reverse; justify-content: center; align-items: center;}
         
 section{margin-top: 10vh;}        
+
+*::-webkit-scrollbar {width: 14px;}  
+*::-webkit-scrollbar-thumb {background-color: #7f5af0;} 
 
 @media screen and (max-width: 1100px) {
     .HowToContainer img{display: none;} 

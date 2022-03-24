@@ -37,6 +37,7 @@ main{display: flex; justify-content: center; align-items: center;height: 90vh;}
             .email p:nth-child(1){font-size: 1.5rem; line-height: 1.2;}
     .Description{margin-left: 7%; margin-right: 7%; background-color: #16161a; border-radius: 10px;} 
         .Description p{margin: 2%;}   
+    
   
         @media screen and (max-width: 1200px) {
             .Container{font-size: 0.8rem;}
