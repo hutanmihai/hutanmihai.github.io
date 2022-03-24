@@ -36,7 +36,11 @@ main{display: flex; justify-content: center; align-items: center;height: 90vh;}
             .email p:nth-child(1){font-size: 1.5rem; line-height: 1.2;}
     .Description{margin-left: 7%; margin-right: 7%; background-color: #16161a; border-radius: 10px;} 
         .Description p{margin: 2%;}   
-      
+  
+        @media screen and (max-width: 1200px) {
+            
+        }                
+
         @media screen and (max-width: 700px) {
             .MainMenuList li:nth-child(1){display: none;}
             .MainMenuList li:nth-child(2){display: none;}
@@ -49,6 +53,3 @@ main{display: flex; justify-content: center; align-items: center;height: 90vh;}
                     .DropDown:hover .DropDownContent{display: block;}      
         }
         
-        @media screen and (max-width: 1200px) {
-            
-        }        
