@@ -127,5 +127,8 @@ span:hover{color: #7f5af0;}
         .NewsTextOne{grid-column: 2/span 5; grid-row: 1;}
         .NewsTextTwo{grid-column: 2/span 5; grid-row: 3;}    
         .NewsTextThree{grid-column: 2/span 5; grid-row: 5;}
-        .NewsTextGroup img{display: none;}        
+        .NewsTextGroup img{display: none;}   
+        .GalleryContainer img:hover{transform: scale(1.5); height: auto;}  
+        .GalleryContainer img{margin-left: 1vw; margin-right: 1vw; margin-top: 1vw; margin-bottom: 1vw;  width: 200px; height: auto;}
+        
 }

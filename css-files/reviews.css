@@ -12,6 +12,8 @@ a:hover{color: #7f5af0;}
 a{transition-duration: 1s;}
 p{letter-spacing: 0.6px;}
 
+#Text{display: none;}
+
 .Header{display: flex;position: relative;z-index: 3; justify-content: space-between; align-items: center; height: 10vh; background-color: #94a1b2; position: sticky; top: 0;}
     .Logo{display:flex;align-items: center; height: 80%; width: auto;}
     .MainMenu{display: flex;align-items: center; height: 100%;}
@@ -68,8 +70,8 @@ p{letter-spacing: 0.6px;}
         
 section{margin-top: 10vh;}        
 
-@media screen and (max-width: 1200px) {
-    
+@media screen and (max-width: 1100px) {
+    .HowToContainer img{display: none;} 
 }
 
 @media screen and (max-width: 700px) {
@@ -81,6 +83,24 @@ section{margin-top: 10vh;}
     .DropDownContent{display: none;position: absolute;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); width: 100%; background-color: #94a1b2; margin-top: 5px; font-size: 0.8rem; border-radius: 10px;}
         .DropDownContent a{display: block;position: relative; text-align: center; padding: 12px 16px; text-decoration: none;}
             .DropDownContent a:hover{color: #7f5af0;}
-            .DropDown:hover .DropDownContent{display: block;}      
+            .DropDown:hover .DropDownContent{display: block;}  
+            
+    .HowToContainer img{display: none;}         
+    .ReviewTipsLink {font-size: 4vw; line-height: 1.5;}
+    table {font-size: 2vw;}    
+
+    .Text{display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100vw;}  
+    .TextContainer{display: flex; flex-direction: column; justify-content: center;}
+    .TextContainer p{margin-left: 2vw; margin-right: 2vw;}
+        #one::before{content: "1.";}
+        #two::before{content: "2.";}
+        #three::before{content: "3.";}
+        #four::before{content: "4.";}
+        #five::before{content: "5.";}
+        #six::before{content: "6.";}
+        #seven::before{content: "7.";}
+        #eight::before{content: "8.";}
+        #nine::before{content: "9.";}
+    #HowTo{display: flex; justify-content: center; align-items: center;   font-size: 6vw;}    
 }
 

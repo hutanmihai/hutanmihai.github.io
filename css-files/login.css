@@ -4,7 +4,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-html{font-size: 16px; background-color: #16161a; color: #fffffe;}
+html{font-size: 16px; background-color: #16161a; color: #fffffe; overflow-x: hidden;}
 
 
 .Header{display:flex;justify-content: flex-start;align-items: center; width: 100vw; height: 10vh; background-color: #94a1b2;}
