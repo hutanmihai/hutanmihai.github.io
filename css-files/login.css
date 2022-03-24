@@ -20,5 +20,13 @@ main{display: flex; justify-content: center;}
 
 ::placeholder{color: #fffffe; opacity: 0.7;}
 
+@media screen and (max-width: 700px) {
+    .LoginForm{width: 100%;}   
+}
+
+@media screen and (max-width: 1200px) {
+    .LoginForm{width: 40vw;}   
+}
+
 
 
