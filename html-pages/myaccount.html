@@ -11,7 +11,7 @@
     <body>
         <header class="Header">
             <a class="Logo" href="../index.html">
-                <img src="/resources/logo.jpg">
+                <img src="/resources/logo.jpg" alt="Logo">
             </a>
             <nav class="MainMenu">
                 <ul class="MainMenuList">
@@ -40,7 +40,7 @@
             <div class="RightNav">
                 <div class="MyAccount">
                     <a href="myaccount.html" class="MyAccountLink">
-                        <img class="MyAccountImg" src="/resources/portrait.png">
+                        <img class="MyAccountImg" src="/resources/portrait.png" alt="MyAccount">
                     </a>
                 </div>
                 <div class="SignOut">
@@ -51,7 +51,7 @@
         <main>
             <div class="Container">   
                 <div class="ContainerUp">
-                    <img class="Avatar" src="/resources/avatar-icon.webp">
+                    <img class="Avatar" src="/resources/avatar-icon.webp" alt="MyAvatar">
                     <div class="Details">    
                         <div class="Username">
                             <p>Username:</p>
@@ -64,12 +64,22 @@
                     </div>
                 </div>
                 <div class="Description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod a orci eu varius. In fermentum sapien et convallis pharetra. Sed sit amet efficitur diam. Curabitur maximus, purus sit amet accumsan euismod, metus sem pharetra mauris, vitae efficitur turpis urna nec leo. Proin efficitur porta posuere. Phasellus placerat pellentesque quam ut blandit. Aliquam a blandit quam, vel dictum leo. Nullam ac justo lacinia ex vehicula dictum id suscipit metus. Aliquam tellus justo, pulvinar blandit est et, bibendum malesuada orci.</p>
+                    <form class="DescriptionForm"> 
+                        <input class="DescriptionInput" type="text" placeholder="Add your description"/>
+                    </form>
                 </div>
-
-            </div>
-            
-            
+            </div>            
         </main>
+        <footer>
+            <div class="ReviewApp">
+                <form class="ReviewAppForm">
+                    <p>Do you like our site?</p>
+                    <div class="flex">
+                        <input type="radio" name="LikeIT"><label>Yes</label>
+                        <input type="radio" name="LikeIT"><label>No</label>
+                    </div>
+                </form>
+            </div>
+        </footer>
     </body>
 </html>    

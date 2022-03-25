@@ -92,6 +92,9 @@ span:hover{color: #7f5af0;}
 
 }
 
+span{color: #fffffe; font-size: 1.2rem;}
+.ComunityTextGroup{line-height: 1.5;}
+
 
 @media screen and (max-width: 1200px) {
     .Hero div{font-size: 1.5rem;}
